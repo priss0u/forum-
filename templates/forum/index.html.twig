@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello Forum!{% endblock %}
+
+{% block body %}
+
+
+{% if app.user %}
+    <h1> Bonjour, {{app.user.userIdentifier}}, Hello ! </h1>
+{% else %}
+    <h1> Forum Karaba Bienvenue !</h1>
+{% endif %}    
+
+
+{% endblock %}
