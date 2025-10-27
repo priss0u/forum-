@@ -1,18 +1,7 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
-
-
-body{
-    background-color: #A67C8C;
+.nav {
+    background-color: black;
 }
 
-h1{
-  color: #201A26;
-  font-family: "Irish Grover", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.navbar{
-    color: #733C46;
-}
+footer {
+    background-color: black;
+}   

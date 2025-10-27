@@ -1,11 +1,25 @@
-<nav class="navbar bg-body-tertiary">
+<nav class="navbar nav">
   <div class="container mt-3">
-    <a class="navbar-brand" "text">Inscrit toi !</a>
+    <a type="submit" class="navbar-brand" href="{{ path('app_forum') }}">Forum Karaba</a>
+    <div>
+      <a type="submit" name="login" class="btn btn-success" "page" href="{{ path('app_about') }}">À Propos</a>
+    </div>
   </div>
   <div>
     <a type="submit" name="login" class="btn btn-success" "page" href="{{ path('app_login') }}">Connexion</a>
   </div>
+    <div>
+    <a type="submit" class="btn btn" "page" href="{{ path('app_register') }}">Inscription</a>
+  </div>
   <div>
     <a type="submit" class="btn btn-danger" "page" href="{{ path('app_logout') }}">Deconnexion</a>
   </div>
+  <div>
+    <a type="submit" class="btn btn-danger" "page" href="{{ path('app_topic_index') }}">Topic</a>
+  </div>
+  <div>
+    <a type="submit" class="btn btn-danger" "page" href="{{ path('app_comment_index') }}">Comment</a>
+  </div>
 </nav>
+
+ 

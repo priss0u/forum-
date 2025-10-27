@@ -15,4 +15,10 @@ final class ForumController extends AbstractController
             'controller_name' => 'Karaba Forum',
         ]);
     }
+
+    #[Route('/apropos', name: 'app_about')]
+    public function about(): Response
+    {
+        return $this->render('forum/about.html.twig', []);
+    }
 }
